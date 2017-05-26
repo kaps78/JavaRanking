@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Your Java Rank &amp; Grade</string>
+    <string name="app_tagline">System.out.println(“And your rank is:…”);</string>
+    <string name="app_feature1">Check your Java Ranking &amp; Grade in minutes!</string>
+    <string name="app_feature2">Get three new questions every day!</string>
+    <string name="app_get_started">How does it work?</string>
+    <string name="app_intro">Rank and grade yourself among Java Developer Community in less than 2 minutes!</string>
+    <string name="app_base_score">You get 3 fresh random questions every day! <b>Get points</b> for each right answer. No negative marking!</string>
+    <string name="app_swift_response_score">You get <b>even more points</b> if you answer them quickly!</string>
+    <string name="app_rank_grade">That\'s it! You get your Daily  and All-Time Ranks!</string>
+    <string name="app_get_questions">Get my three questions for the day!</string>
+    <string name="app_report_card">Report Card</string>
+    <string name="app_home">Home</string>
+    <string name="app_rankgrade">Your Rank and Grade!</string>
+    <string name="app_last_rank_grade">Last One</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_application_id" translatable="false">1718668821727493</string>
+</resources>

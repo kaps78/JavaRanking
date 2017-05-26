@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".AuthActivity"
+    android:theme="@style/AppTheme"
+    -->
+
+    <!--android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:theme="@style/MaterialTheme">
+
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text=""
+            android:id="@+id/txt_signin"
+            /-->
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        card_view:cardElevation="5dp"
+        card_view:cardBackgroundColor="@color/windowBackground"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:theme="@style/MaterialTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Your question is being downloaded..."
+            android:id="@+id/txt_question"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionsGroup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your option 1"
+                android:padding="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/option1"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your option 2"
+                android:padding="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/option2"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your option 3"
+                android:padding="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/option3"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your option 4"
+                android:padding="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/option4"
+                />
+
+        </RadioGroup>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:padding="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/btnNext"
+                />
+            <TextView
+                android:id="@+id/textTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_centerHorizontal="true"
+                android:text="Quick Response Opportunity" />
+
+
+        Read more: http://www.androidhub4you.com/2013/04/countdown-demo-in-android-custom-timer.html#ixzz4KbZkxJau
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout-->

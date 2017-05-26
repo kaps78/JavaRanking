@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('C:/Users/Hardik/.android/debug.keystore')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.bethexsoftware.javaranking"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.google.firebase:firebase-auth:9.0.2'
+    compile 'com.firebaseui:firebase-ui-auth:0.4.1'
+    compile 'com.google.firebase:firebase-database:9.0.2'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile files('libs/jackson-all-1.9.0.jar')
+    compile 'org.kie.modules:com-google-code-gson:6.4.0.Final'
+    compile files('libs/gson-2.2.2.jar')
+}
+apply plugin: 'com.google.gms.google-services'

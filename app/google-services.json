@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "958745693478",
+    "firebase_url": "https://java-ranking.firebaseio.com",
+    "project_id": "java-ranking",
+    "storage_bucket": "java-ranking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958745693478:android:b3c03c82523b467c",
+        "android_client_info": {
+          "package_name": "com.bethexsoftware.javaranking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958745693478-gjdmhhlr05dg52kai36he9n2pbh8qukj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcTb4rKv719uJ0MtXly6xDtlVU0zMDerE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
